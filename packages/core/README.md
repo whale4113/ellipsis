@@ -5,13 +5,13 @@ A simple library to truncate text with an ellipsis.
 ## Installation
 
 ```bash
-npm install @ellipsis/core
+npm install @text-ellipsis/core
 ```
 
 ## Usage
 
 ```typescript
-import { ellipsis } from '@ellipsis/core';
+import { ellipsis } from '@text-ellipsis/core';
 
 const text = 'This is a long string that will be trimmed';
 const truncatedText = ellipsis(text, 27);

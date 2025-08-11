@@ -1,5 +1,5 @@
 {
-  "name": "@ellipsis/monorepo",
+  "name": "@text-ellipsis/monorepo",
   "private": "true",
   "volta": {
     "node": "22.18.0",

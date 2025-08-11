@@ -2,7 +2,7 @@
 
 This monorepo contains the following packages:
 
-- [`@ellipsis/core`](/packages/core) - A simple library to truncate text with an ellipsis.
+- [`@text-ellipsis/core`](/packages/core) - A simple library to truncate text with an ellipsis.
 
 ## Contributing
 

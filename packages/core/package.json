@@ -1,5 +1,5 @@
 {
-  "name": "@ellipsis/core",
+  "name": "@text-ellipsis/core",
   "version": "0.1.0",
   "description": "A simple library to truncate text with an ellipsis",
   "type": "module",
