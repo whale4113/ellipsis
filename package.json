@@ -1,0 +1,15 @@
+{
+  "name": "@ellipsis/monorepo",
+  "private": "true",
+  "volta": {
+    "node": "22.18.0"
+  },
+  "dependencies": {
+    "vitest": "catalog:test",
+    "tsdown": "catalog:build",
+    "typescript": "catalog:devtools"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:types"
+  }
+}

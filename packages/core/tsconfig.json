@@ -1,24 +1,11 @@
 {
-  "include": ["src"],
-  "compilerOptions": {
-    "rootDir": ".",
-    "noEmit": true,
-    "target": "es2024",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "noUncheckedSideEffectImports": true,
-    "sourceMap": true,
-    "declarationMap": true,
-    "verbatimModuleSyntax": true,
-    "erasableSyntaxOnly": true,
-    "isolatedDeclarations": true,
-    "declaration": true,
-    "strict": true,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true
-  }
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

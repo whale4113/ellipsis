@@ -1,0 +1,11 @@
+packages:
+  - "packages/*"
+catalogs:
+  test:
+    vitest: ^3.2.4
+  build:
+    tsdown: ^0.14.0
+  devtools:
+    typescript: ^5.9.2
+  types:
+    "@types/node": ^24.2.1

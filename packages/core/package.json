@@ -1,0 +1,20 @@
+{
+  "name": "@ellipsis/core",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsdown"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
+}
