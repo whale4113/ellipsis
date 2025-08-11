@@ -1,7 +1,7 @@
 {
   "name": "@ellipsis/core",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple library to truncate text with an ellipsis",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,11 @@
     "dist",
     "src"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/whale4113/ellipsis",
