@@ -6,6 +6,8 @@ catalogs:
   build:
     tsdown: ^0.14.0
   devtools:
+    "@changesets/cli": ^2.29.5
+    turbo: ^2.5.5
     typescript: ^5.9.2
   types:
     "@types/node": ^24.2.1

@@ -2,14 +2,18 @@
   "name": "@ellipsis/monorepo",
   "private": "true",
   "volta": {
-    "node": "22.18.0"
+    "node": "22.18.0",
+    "pnpm": "10.14.0"
   },
   "dependencies": {
     "vitest": "catalog:test",
     "tsdown": "catalog:build",
-    "typescript": "catalog:devtools"
+    "typescript": "catalog:devtools",
+    "turbo": "catalog:devtools",
+    "@changesets/cli": "catalog:devtools"
   },
   "devDependencies": {
     "@types/node": "catalog:types"
-  }
+  },
+  "packageManager": "pnpm@10.14.0"
 }
