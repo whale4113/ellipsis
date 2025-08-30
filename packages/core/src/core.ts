@@ -173,12 +173,12 @@ export const ellipsis = <T extends string | Span[]>(
 
   let currentLength = 0;
   for (const span of normalizedText) {
-    if (currentLength < maxHeadLength) {
+    if (currentLength + span.length <= maxHeadLength) {
       head.push(span);
+      currentLength += span.length;
     } else {
       tail.push(span);
     }
-    currentLength++;
   }
 
   const ellipsisText = head.concat(
