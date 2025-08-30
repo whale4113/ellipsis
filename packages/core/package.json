@@ -1,14 +1,14 @@
 {
   "name": "@text-ellipsis/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple library to truncate text with an ellipsis",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "default": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
   "files": [
